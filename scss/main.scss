@@ -1,0 +1,11 @@
+@import "custom";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url("/node_modules/bootstrap-icons/font/bootstrap-icons.scss");
+
+footer {
+    color: primary;
+}
+
+.btn-primary {
+    background-color: #906427 !important;
+}
