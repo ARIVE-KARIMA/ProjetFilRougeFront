@@ -2,10 +2,19 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import url("/node_modules/bootstrap-icons/font/bootstrap-icons.scss");
 
-footer {
-    color: primary;
+
+html {
+    position: relative;
+    min-height: 100%;
 }
 
-.btn-primary {
-    background-color: #906427 !important;
+main {
+    margin-bottom: 250px;
+}
+
+footer.footer {
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }

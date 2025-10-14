@@ -23960,10 +23960,18 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-footer {
-  color: primary;
+html {
+  position: relative;
+  min-height: 100%;
 }
 
-.btn-primary {
-  background-color: #906427 !important;
+main {
+  margin-bottom: 250px;
+}
+
+footer.footer {
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
